@@ -1,3 +1,26 @@
-h1 {
-    color: red;
-  }
+body
+    {
+        background-color: #fffbf7 ;
+    }
+h1
+    {
+    color: #0E5157;
+    }
+
+h4
+    {
+        color: #46484c;
+        font-family: "Slabo 27px", serif;
+        font-size: 20px;
+        margin-bottom: 30px;    }
+button 
+    {
+        background-color: #025157;
+        color: #fff;
+    }
+
+p
+    {
+        color: #8b8b8bcc;
+        margin-top: 15px;
+    }
