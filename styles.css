@@ -1,6 +1,11 @@
 body {
     background-color: #fffbf7;
     }
+main
+    {
+      margin-top: 285px;
+    text-align: center;
+    }
 h1 
     {
       color: #8b8b8bcc;
@@ -12,12 +17,6 @@ h3
     {
       color: #46484c;
     }
-  
-button 
-    {
-      color: #fff;
-      background-color: #025157;
-    }
 .header 
     { 
       height: 45px;
@@ -25,8 +24,8 @@ button
       margin-left: 20px;
       margin-right: 20px;
       font-size: 0;
-
     }
+
 .header > * {
       display: inline-block;
       font-size: 16px;
@@ -47,15 +46,47 @@ li
 .logo > img {
       height: 100%;
     }
-    
 .navbar 
     {
+
       width: 70%;
       text-align: center;
       color: #025157;
       font-weight: 500;
     }
+.navbar > *
+    {
+      font-family: sans-serif;
+    }
+li
+    {
+      padding-right: 25px;  
+    }
 .header-form
     {
         height: 55px;
     }
+form .actions
+    {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: right;
+      font-weight: 600;
+      font-size: 14px;
+    }
+.arrow
+  {
+    background-color: #0E5157;
+    color: #fff;
+  }
+.form-button
+  {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
