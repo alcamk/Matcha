@@ -4,7 +4,7 @@ body {
 main
     {
       margin-top: 285px;
-    text-align: center;
+      text-align: center;
     }
 h1 
     {
@@ -89,4 +89,17 @@ form .actions
     padding-bottom: 12px;
     border: 0;
     border-radius: 5px;
+  }
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
   }
