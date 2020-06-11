@@ -31,7 +31,6 @@ h3
       font-size: 16px;
       vertical-align: middle;
       height: 100%;
-      line-height: 45px;
     }
 li 
     {
@@ -127,4 +126,8 @@ form .actions
 .feature-card
     {
       background-color: violet;
+    }
+    main {
+      margin-top: 285px;
+      text-align: center;
     }
