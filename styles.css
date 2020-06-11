@@ -48,7 +48,6 @@ li
     }
 .navbar 
     {
-
       width: 70%;
       text-align: center;
       color: #025157;
@@ -74,6 +73,17 @@ form .actions
       font-weight: 600;
       font-size: 14px;
     }
+.actions
+   {
+      width: 15%;
+      text-align: right;
+      font-size: 14px;
+      font-weight: 600;
+    }
+.sign
+    {
+      padding-right: 10px;
+    }
 .arrow
   {
     background-color: #0E5157;
@@ -90,20 +100,20 @@ form .actions
     border: 0;
     border-radius: 5px;
   }
-  .promo {
+.promo {
     display: flex;
     width: 70%;
     margin: 100px auto;
     align-items: center;
   }
-  .fixed-header {
+.fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: #fffbf7;
   }
-  .features {
+.features {
     display: grid;
     background-color: springgreen;
     height: 660px;
@@ -114,7 +124,7 @@ form .actions
     padding: 5% 10%;
   }
   
-  .feature-card
+.feature-card
     {
       background-color: violet;
     }
