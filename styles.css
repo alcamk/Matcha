@@ -3,20 +3,39 @@ body {
     }
 main
     {
-      margin-top: 285px;
+      margin-top: 300px;
       text-align: center;
     }
 h1 
     {
-      color: #8b8b8bcc;
-      font-weight: bold;
+      color: #0E5157;
       padding: 10px;  
+      font-size: 60px;
+      margin-bottom: 24px;
     }
-  
-h3 
+input
+  {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+  }
+input, button
+  {
+    height: 100%;
+    border-radius: 8px;
+  }
+button, input 
+  {
+    overflow: visible;
+
+  }
+h4  
     {
       color: #46484c;
-    }
+      font-family: "Slabo 27px", serif;
+      font-size: 20px;
+      margin-bottom: 30px;    }
 .header 
     { 
       height: 45px;
@@ -64,7 +83,7 @@ li
     {
         height: 55px;
     }
-form .actions
+form .actions 
     {
       margin-left: 10px;
       margin-right: 10px;
@@ -83,10 +102,15 @@ form .actions
     {
       padding-right: 10px;
     }
-.arrow
+button
   {
-    background-color: #0E5157;
+    background-color: #025157;
     color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
   }
 .form-button
   {
@@ -111,23 +135,62 @@ form .actions
     left: 0;
     right: 0;
     background-color: #fffbf7;
+    z-index: 1030;
   }
-.features {
-    display: grid;
-    background-color: springgreen;
-    height: 660px;
-    width: 300px;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 20px;
-    grid-template-rows: 1fr 1fr;
-    padding: 5% 10%;
+.blog
+  {
+    color: #343434;
   }
-  
-.feature-card
+p 
+  {
+    color: #A5A4A3;
+  }
+form 
+  {
+    height: 55px;
+  }
+.publish
+  {
+    flex: 1;
+  }
+.publish h3 
+  {
+    font-style: bold ;
+    font-size: 40px;
+    line-height: 48px;
+    color: #0E5157;
+    padding-bottom: 50px;
+  }
+
+.publish > p 
+  {
+    font-size: 16px;
+    color: #343434 ;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+.publish > form 
+  {
+    display: inline-flexbox;
+  }
+
+.publish > form p 
+  {
+    color: #A5A4A3;
+    margin-right: 18px;
+  }
+.explanatory-video 
     {
-      background-color: violet;
+      display: inline-flexbox;
+      flex: auto ;
+      align-items: center;
+      flex: 1;
     }
-    main {
-      margin-top: 285px;
-      text-align: center;
+    
+ .explanatory-video img 
+    {
+      width: 120px;
+      margin-top: 10px;
+      padding-left: 150px;
     }
